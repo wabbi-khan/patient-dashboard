@@ -1,4 +1,4 @@
-.heading{
+.heading {
     color: #56667f;
     font-size: 50px;
     font-weight: bold;
@@ -19,7 +19,7 @@
     margin-top: 25px;
 }
 
-.patient-card1{
+.patient-card1 {
     background: linear-gradient(to top, #dfe9f3 0%, white 100%);
     box-shadow: 5px 5px grey;
     border-radius: 10px;
@@ -31,18 +31,17 @@
 .patient-img1 img {
     margin-top: 20px;
     width: 30px;
-    
 }
 
-.heading-bottom{
+.heading-bottom {
     color: #56667f;
     font-size: 50px;
     font-weight: bold;
     margin: auto;
 }
 
-.heading-bottom h2{
-    color: rgb(11, 20, 121); ;
+.heading-bottom h2 {
+    color: rgb(11, 20, 121);
 }
 
 .peroson {
@@ -76,4 +75,16 @@
     color: blue;
     font-size: 18px;
     font-weight: 900;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-top: -1500px !important;
+    }
 }
